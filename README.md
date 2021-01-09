@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a very basic rails app to allow me to experiment with writing a GraphQL api. This app allows you to create and retrieve notes that consist of a title and body.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Using GraphiQL you are able to add notes to the database, retrieve a note by it's id, and retrieve all notes (you can pass an optional `direction` argument to control how the notes are sorted)
